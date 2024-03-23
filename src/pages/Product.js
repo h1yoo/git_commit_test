@@ -3,8 +3,8 @@ import { Link, useParams } from "react-router-dom";
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 import { VscAdd, VscChromeMinimize } from "react-icons/vsc";
 import Modal from 'react-modal';
-import NavBar from './NavBar';
-import Footer from './Footer';
+import NavBar from '../components/NavBar';
+import Footer from '../components/Footer';
 
 const Product = ({ products }) => {
   //============== state ==============//

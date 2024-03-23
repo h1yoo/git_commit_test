@@ -1,7 +1,7 @@
 import React from 'react';
-import NavBar from './NavBar';
-import * as styled from './MainPage.styles';
-import Footer from './Footer';
+import NavBar from '../components/NavBar';
+import * as styled from '../components/MainPage.styles';
+import Footer from '../components/Footer';
 
 const MainPage = () => {
   return (
