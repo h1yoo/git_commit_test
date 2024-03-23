@@ -1,0 +1,18 @@
+깃허브 커밋 후 업로드(push) 방법  (+ admin은 로그인 후 --> admin으로 접근해야 함!)
+1. 레포지토리를 연결한다 ==> Git: Clone (중요!)
+2. VSCode 소스 제어(=Ctrl+Shift+G)에서 변경 사항 중 스테이징할 변경 사항에 마우스를 올리고 +를 클릭한다.
+3. VSCode 터미널에서 git status와 git log 확인 후, 잘 커밋되었으면 git remote -v 로 레포지토리가 잘 연결되었는지 확인한다.
+4. 레포지토리가 잘 연결 되었다면 맨 앞에 이름(ex. origin) 확인 후 git branch 로 어떤 브랜치에 커밋했는지 다시 확인해본다.
+5. 브랜치가 main으로 되어 있다. 그러면, git push origin main 입력 후 엔터 누르면 해당 레포지토리에 업로드된다.
+
+※ 정리
+git push 레포지토리이름 브랜치이름
+ex) git push origin main
+
+그래도 안되면
+1. git pull 레포지토리이름 브랜치이름
+ex-1) git pull origin main
+2. git branch --set-upstream-to=origin/<branch> main	(??? 이걸 꼭 해야 하나..??)
+ex-2) git branch --set-upstream-to=origin/main
+3. git push 레포지토리이름 브랜치이름
+ex-3) git push origin main

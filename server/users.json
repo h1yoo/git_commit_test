@@ -1,0 +1,20 @@
+[
+  {
+    "email": "user1@example.com",
+    "password": "hashedPassword1",
+    "number": "1234567890",
+    "address": "123 Main St, City"
+  },
+  {
+    "email": "dummy@gmail.com",
+    "password": "Dummy123!",
+    "number": "dd",
+    "address": "Dummy123!"
+  },
+  {
+    "email": "test1@gmail.com",
+    "password": "Rudcks369!@",
+    "number": "123",
+    "address": "123"
+  }
+]
